@@ -1,0 +1,83 @@
+body {
+
+}
+
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+img{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    /* left: 710px; */
+    width: 30%;
+}
+
+a{
+    position: absolute;
+    background-color: blueviolet;
+    width: 50px;
+}
+
+.boutonM{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: .1s all ease-in-out;
+}
+
+.boutonM:hover{
+    border: 2px solid lightseagreen;
+}
+
+hr{
+    position: absolute;
+    width:30px;
+    height: 2px;
+    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.hr1{
+    top: 2%;
+    right: 1.7%;
+    transition: .2s all ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.hr1:hover{
+    top: 3%;
+    right: 1.7%;
+}
+
+.hr2{
+    top: 3%;
+    right: 1.7%;
+    transition: .1s all ease-in-out;
+}
+
+.hr2:hover{
+
+}
+
+.hr3{
+    top: 4%;
+    right: 1.7%;
+    transition: .1s all ease-in-out;
+}
+
+.hr3:hover{
+    top: 3%;
+    right: 1.7%;
+}
